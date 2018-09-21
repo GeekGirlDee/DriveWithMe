@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.drivewithme.Register">
+
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="67dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4"
+        android:linksClickable="true"
+        android:onClick="login_Click"
+        android:text="Login"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="469dp"
+        tools:textColor="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="185dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="45dp"
+        android:layout_marginStart="47dp"
+        android:text="Are you registered?"
+        android:textSize="15dp"
+        tools:layout_editor_absoluteX="176dp"
+        tools:layout_editor_absoluteY="469dp" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="229dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="167dp"
+        android:ems="10"
+        android:hint="Please enter name"
+        android:inputType="textPersonName"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="229dp"
+        android:ems="10"
+        android:hint="Please enter surname"
+        android:inputType="textPersonName"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="237dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="269dp"
+        android:ems="10"
+        android:hint="Please enter email address"
+        android:inputType="textEmailAddress"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="239dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:ems="10"
+        android:hint="Please enter password"
+        android:inputType="textPassword"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/confirmPass"
+        android:layout_width="242dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="151dp"
+        android:ems="10"
+        android:hint="Please confirm password"
+        android:inputType="textPassword"
+        android:textSize="15dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="90dp"
+        android:onClick="register_Click"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/loginerror"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="171dp"
+        android:layout_marginTop="124dp"
+        android:text=""
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="15dp" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "904991861662",
+    "firebase_url": "https://drivewithme-01.firebaseio.com",
+    "project_id": "drivewithme-01",
+    "storage_bucket": "drivewithme-01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904991861662:android:fd6e3687a99ab0b6",
+        "android_client_info": {
+          "package_name": "com.example.android.drivewithme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904991861662-l3ottmlmsgen747vcc73e62hdu4bttv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIhcEB7zibZHzFosRjGmOcRHTWqUVV-gk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

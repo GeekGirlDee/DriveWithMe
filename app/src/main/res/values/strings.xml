@@ -1,10 +1,13 @@
 <resources>
-    <string name="app_name">Drive</string>
+    <string name="app_name">DriveWithMe</string>
 
     //Underline text
     <string name="TermsOfUse"><u>Terms of Use</u></string>
-    <string name="PrivacyPolicy" translatable="false"><u>Privacy Policy</u></string>
+    <string name="PrivacyPolicy"><u>
+        <a href="https://www.privacy.org.au/Papers/G-Maps-terms-120127.html">Privacy Policy</a></u>
+    </string>
     <string name="title_activity_settings">Settings</string>
+
 
     <!-- Strings related to Settings -->
 
@@ -85,4 +88,6 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_maps">Map</string>
+
+
 </resources>
