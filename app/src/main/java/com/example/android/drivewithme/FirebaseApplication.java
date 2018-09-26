@@ -4,7 +4,6 @@ import android.app.Activity;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
-import android.provider.SyncStateContract;
 import android.support.annotation.NonNull;
 import android.util.Log;
 import android.widget.TextView;
@@ -24,23 +23,23 @@ public class FirebaseApplication extends Application {
         return firebaseAuth = FirebaseAuth.getInstance();
     }
 
-    public String getFirebaseUserAuthenticatedId()
+   public String getFirebaseUserAuthenticatedId()
     {
         String userId = null;
-        if(firebaseAuth.getCurrentUser() != null)
+        /*if(firebaseAuth.getCurrentUser() != null)
         {
             userId = firebaseAuth.getCurrentUser().getUid();
-        }
+        }*/
         return userId;
     }
 
     public void checkUserLogin(final Context context)
     {
-        if(firebaseAuth.getCurrentUser() != null)
+       /* if(firebaseAuth.getCurrentUser() != null)
         {
             Intent i = new Intent(context, HomeScreen.class);
             context.startActivity(i);
-        }
+        }*/
     }
 
     public void isUserCurrentlyLogin(final Context context)

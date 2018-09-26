@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "904991861662-2rjmthfoid0m1e9vltlafpdmrkpmuv23.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.drivewithme",
+            "certificate_hash": "71c969528e7e79cbfe9dc3a07dc93ac6e9f61777"
+          }
+        },
+        {
           "client_id": "904991861662-l3ottmlmsgen747vcc73e62hdu4bttv0.apps.googleusercontent.com",
           "client_type": 3
         }
@@ -29,8 +37,13 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 1,
-          "other_platform_oauth_client": []
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904991861662-l3ottmlmsgen747vcc73e62hdu4bttv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         },
         "ads_service": {
           "status": 2
